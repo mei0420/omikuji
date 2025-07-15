@@ -5,8 +5,8 @@ const urlsToCache = [
   '/index.html',
   '/style.css',
   '/app.js',
-  '/名称未設定のデザイン (1).png',
-  '/名称未設定のデザイン.png'
+  '/images/icon.png',
+  '/images/icon-large.png'
 ];
 
 // インストールイベント
