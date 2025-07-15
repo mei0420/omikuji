@@ -1,0 +1,21 @@
+{
+  "short_name": "おみくじアプリ",
+  "name": "あなたの運勢は？おみくじアプリ",
+  "description": "ランダムなおみくじを引くアプリです。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6347",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-large.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
