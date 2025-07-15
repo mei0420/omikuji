@@ -1,0 +1,45 @@
+<svg viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="192" height="192" fill="#F8F9FA" rx="20"/>
+  
+  <!-- 紙の影 -->
+  <rect x="62" y="52" width="70" height="90" fill="#E9ECEF" rx="6" opacity="0.3"/>
+  
+  <!-- 紙本体 -->
+  <rect x="60" y="50" width="70" height="90" fill="#FFFFFF" rx="6" stroke="#E9ECEF" stroke-width="1"/>
+  
+  <!-- 紙の折り目 -->
+  <line x1="60" y1="70" x2="130" y2="70" stroke="#F1F3F4" stroke-width="1"/>
+  <line x1="60" y1="85" x2="130" y2="85" stroke="#F1F3F4" stroke-width="1"/>
+  <line x1="60" y1="100" x2="130" y2="100" stroke="#F1F3F4" stroke-width="1"/>
+  <line x1="60" y1="115" x2="130" y2="115" stroke="#F1F3F4" stroke-width="1"/>
+  
+  <!-- 小さな星のアクセント -->
+  <g transform="translate(95, 75)">
+    <polygon points="0,-4 1,-1 4,-1 1.5,0.5 2.5,3.5 0,2 -2.5,3.5 -1.5,0.5 -4,-1 -1,-1" fill="#C8E6C9" opacity="0.6"/>
+  </g>
+  
+  <!-- 小さな円形装飾 -->
+  <circle cx="80" cy="110" r="2" fill="#FFCCBC" opacity="0.5"/>
+  <circle cx="110" cy="105" r="1.5" fill="#E1BEE7" opacity="0.4"/>
+  <circle cx="90" cy="125" r="1.5" fill="#BBDEFB" opacity="0.5"/>
+  
+  <!-- 微細な装飾点 -->
+  <circle cx="70" cy="60" r="1" fill="#E8F5E8" opacity="0.6"/>
+  <circle cx="120" cy="65" r="1" fill="#FFF3E0" opacity="0.5"/>
+  <circle cx="75" cy="130" r="1" fill="#F3E5F5" opacity="0.4"/>
+  <circle cx="115" cy="125" r="1" fill="#E3F2FD" opacity="0.5"/>
+  
+  <!-- 紙の右上角の折り -->
+  <path d="M 120 50 L 130 50 L 130 60 Z" fill="#F1F3F4" opacity="0.3"/>
+  
+  <!-- 光沢効果 -->
+  <rect x="60" y="50" width="35" height="45" fill="url(#shine)" rx="6" opacity="0.1"/>
+  
+  <defs>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+</svg>
